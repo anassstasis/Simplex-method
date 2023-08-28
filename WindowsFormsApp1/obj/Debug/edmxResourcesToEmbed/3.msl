@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище elementModelContainer" CdmEntityContainer="elementEntities1">
+    <EntitySetMapping Name="element">
+      <EntityTypeMapping TypeName="elementModel.element">
+        <MappingFragment StoreEntitySet="element">
+          <ScalarProperty Name="i" ColumnName="i" />
+          <ScalarProperty Name="P0" ColumnName="P0" />
+          <ScalarProperty Name="P1" ColumnName="P1" />
+          <ScalarProperty Name="P2" ColumnName="P2" />
+          <ScalarProperty Name="P3" ColumnName="P3" />
+          <ScalarProperty Name="P4" ColumnName="P4" />
+          <ScalarProperty Name="P5" ColumnName="P5" />
+          <ScalarProperty Name="P6" ColumnName="P6" />
+          <ScalarProperty Name="P7" ColumnName="P7" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
